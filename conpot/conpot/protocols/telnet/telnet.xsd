@@ -1,0 +1,22 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified"
+           elementFormDefault="qualified">
+    <xs:element name="telnet">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="device_info">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="device_type" type="xs:string" />
+                            <xs:element name="banner" type="xs:string" />
+                            <xs:element name="max_login_attemps" type="xs:string" />
+                            <xs:element name="motd" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="enabled" type="xs:string" use="required" />
+            <xs:attribute name="host" type="xs:string" use="required" />
+            <xs:attribute name="port" type="xs:unsignedShort" use="required" />
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

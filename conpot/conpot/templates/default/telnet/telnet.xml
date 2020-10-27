@@ -1,0 +1,8 @@
+<telnet enabled="True" host="0.0.0.0" port="2323">
+    <device_info>
+        <device_type>BinTec R230aw</device_type>
+        <banner>Welcome to R230aw version V.7.10 Rev. 1 (Patch 3) IPSec from 2012/04/24 00:00:00\nsystemname is Bartoccini Spoleto, location Bartoccini Spoleto</banner>
+        <max_login_attemps>3</max_login_attemps>
+        <motd></motd>
+    </device_info>
+</telnet>
