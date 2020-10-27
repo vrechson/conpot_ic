@@ -1,0 +1,43 @@
+# Nmap 7.80 scan initiated Fri Oct  2 01:47:17 2020 as: nmap -sS -sV -p- -oA conpot-1 200.136.213.181
+Nmap scan report for 200.136.213.181
+Host is up (0.034s latency).
+Not shown: 65515 closed ports
+PORT      STATE    SERVICE        VERSION
+19/tcp    filtered chargen
+21/tcp    open     ftp?
+22/tcp    open     ssh            OpenSSH 7.2p2 Ubuntu 4ubuntu2.1 (Ubuntu Linux; protocol 2.0)
+25/tcp    filtered smtp
+80/tcp    open     http
+102/tcp   open     iso-tsap?
+123/tcp   filtered ntp
+161/tcp   filtered snmp
+502/tcp   open     mbap?
+2104/tcp  filtered zephyr-hm
+5555/tcp  filtered freeciv
+7170/tcp  filtered nsrp
+7547/tcp  filtered cwmp
+8002/tcp  filtered teradataordbms
+8504/tcp  filtered unknown
+30005/tcp filtered unknown
+44818/tcp open     EtherNetIP-2?
+51005/tcp filtered unknown
+58603/tcp filtered unknown
+58702/tcp filtered unknown
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port21-TCP:V=7.80%I=7%D=10/2%Time=5F76B106%P=x86_64-unknown-linux-gnu%r
+SF:(NULL,17,"200\x20FTP\x20server\x20ready\.\r\n")%r(GenericLines,3A,"200\
+SF:x20FTP\x20server\x20ready\.\r\n500\x20Command\x20'\\r\\n'\x20not\x20und
+SF:erstood\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.80%I=7%D=10/2%Time=5F76B107%P=x86_64-unknown-linux-gnu%r
+SF:(GetRequest,7E,"HTTP/1\.1\x20302\x20Found\r\nDate:\x20Fri,\x2002\x20Oct
+SF:\x202020\x2000:42:40\x20GMT\r\nContent-Type:\x20text/html\r\nLocation:\
+SF:x20/index\.html\r\nContent-Length:\x200\r\n\r\n")%r(HTTPOptions,9B,"HTT
+SF:P/1\.1\x20200\x20OK\r\nDate:\x20Fri,\x2002\x20Oct\x202020\x2000:42:40\x
+SF:20GMT\r\nAllow:\x20GET,HEAD,POST,OPTIONS,TRACE\r\nContent-Length:\x200\
+SF:r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\n\r\n");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Oct  2 01:51:46 2020 -- 1 IP address (1 host up) scanned in 269.46 seconds

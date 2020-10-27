@@ -1,0 +1,25 @@
+<telnet enabled="True" host="0.0.0.0" port="2323">
+    <device_info>
+        <device_type>Sri Lanka Telecom PLC</device_type>
+        <banner>----------------------------------------
+
+
+Service Fullfillment Center
+Sri Lanka Telecom PLC
+Config by       : D.M.U.P Karunarathne
+Date            : 22/01/2019
+Type            : C891F
+S/N             : FGL222992A7
+Service         : D-BIL
+Customer        : VISTA G CONSULT PVT LTD
+CIRCUIT ID      : D81249 (Old_D82300)
+Modified	: K.S.Perera (16/06/2019)
+----------------------------------------
+
+User Access Verification
+
+</banner>
+        <max_login_attemps>3</max_login_attemps>
+        <motd></motd>
+    </device_info>
+</telnet>

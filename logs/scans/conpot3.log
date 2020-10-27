@@ -1,0 +1,13 @@
+gse wait while the system copies all specified files
+2020-10-02 01:14:07,511 Fetched 200.136.213.58 as external ip.
+2020-10-02 01:14:07,516 Conpot GuardianAST initialized
+2020-10-02 01:14:07,517 Found and enabled guardian_ast protocol.
+2020-10-02 01:14:07,519 No proxy template found. Service will remain unconfigured/stopped.
+2020-10-02 01:14:07,520 GuardianAST server started on: ('0.0.0.0', 10001)
+2020-10-02 04:49:03,585 New guardian_ast session from 200.162.228.246 (c1fc2631-e9a3-44a0-af47-34aba94f5782)
+2020-10-02 04:49:03,586 New GuardianAST connection from 200.162.228.246:54982. (c1fc2631-e9a3-44a0-af47-34aba94f5782)
+2020-10-02 04:49:09,590 Non ^A command attempt 200.162.228.246:54982. (c1fc2631-e9a3-44a0-af47-34aba94f5782)
+2020-10-02 04:49:09,591 GuardianAST client disconnected 200.162.228.246:54982. (c1fc2631-e9a3-44a0-af47-34aba94f5782)
+2020-10-02 04:49:09,626 New GuardianAST connection from 200.162.228.246:55008. (c1fc2631-e9a3-44a0-af47-34aba94f5782)
+2020-10-16 01:52:42,091 Stopping Conpot
+2020-10-16 01:52:42,096 Shutting down File System. Cleaning directories at /home/conpot/.local/lib/python3.6/site-packages/conpot-0.6.0-py3.6.egg/conpot/ConpotTempFS/__conpot__poa1zfiz
