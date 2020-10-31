@@ -19,8 +19,8 @@ $ docker run -it -p 80:8800 -p 102:10201 -p 502:5020 -p 2323:2323 -p 161:16100/u
 # Para executar o template do PLC SIMATIC 300(1)
 $ docker run -it -p 80:8800 -p 102:10201 -p 502:5020 -p 2323:2323 -p 161:16100/udp -p 47808:47808/udp -p 623:6230/udp -p 21:2121 -p 69:6969/udp -p 44818:44818 --network=bridge conpot -f -t simatic_3000
 
-# Para executar o template do PLC Sri Lanka Telecom PLC
-$ docker run -it -p 80:8800 -p 102:10201 -p 502:5020 -p 2323:2323 -p 161:16100/udp -p 47808:47808/udp -p 623:6230/udp -p 21:2121 -p 69:6969/udp -p 44818:44818 --network=bridge conpot -f -t SriLankaTelecom
+# Para executar o template do PLC SlimLine
+$ docker run -it -p 80:8800 -p 102:10201 -p 502:5020 -p 2323:2323 -p 161:16100/udp -p 47808:47808/udp -p 623:6230/udp -p 21:2121 -p 69:6969/udp -p 44818:44818 --network=bridge conpot -f -t SlimLine
 ```
 
 ## O que foi feito

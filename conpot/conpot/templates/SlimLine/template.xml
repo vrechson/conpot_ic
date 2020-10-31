@@ -1,23 +1,23 @@
 <core>
     <template>
         <!-- General information about the template -->
-        <entity name="unit">C891F</entity>
-        <entity name="vendor">Sri Lanka Telecom PLC</entity>
-        <entity name="description">Service Fullfillment Center</entity>
-        <entity name="protocols">telnet</entity>
-        <entity name="creator">vrechson</entity>
+        <entity name="unit">SlimLine Cortex M7</entity>
+        <entity name="vendor">Elsist</entity>
+        <entity name="description">SlimLine Cortex M7</entity> 
+        <entity name="protocols">HTTP, telnet</entity>
+        <entity name="creator">Elsist</entity>
     </template>
     <databus>
         <!-- Core value that can be retrieved from the databus by key -->
         <key_value_mappings>
             <key name="FacilityName">
-                <value type="value">"LG Uplus"</value>
+                <value type="value">"SlimLine Cortex"</value>
             </key>
             <key name="SystemName">
-                <value type="value">"SIMATIC 300(1)"</value>
+                <value type="value">"SlimLine Cortex M7"</value>
             </key>
             <key name="SystemDescription">
-                <value type="value">"CP 343-1 Lean, 6GK7 343-1CX10-0XE0"</value>
+                <value type="value">"SlimLine Cortex M7"</value>
             </key>
             <key name="Uptime">
                 <value type="function">conpot.emulators.misc.uptime.Uptime</value>
@@ -26,25 +26,25 @@
                 <value type="value">"0.0"</value>
             </key>
             <key name="sysContact">
-                <value type="value">"Siemens"</value>
+                <value type="value">"Elsist"</value>
             </key>
             <key name="sysName">
-                <value type="value">"SIMATIC NET"</value>
+                <value type="value">"SlimLine Cortex"</value>
             </key>
             <key name="sysLocation">
-                <value type="value">"South Korea"</value>
+                <value type="value">"It"</value>
             </key>
             <key name="sysServices">
                 <value type="value">"12"</value>
             </key>
             <key name="Copyright">
-                <value type="value">"Original Siemens Equipment"</value>
+                <value type="value">"Elsist"</value>
             </key>
             <key name="s7_id">
                 <value type="value">"88111222"</value>
             </key>
             <key name="s7_module_type">
-                <value type="value">"6ES7 312-1AE14-0AB0  v.0.7"</value>
+                <value type="value">"M7"</value>
             </key>
             <key name="empty">
                 <value type="value">""</value>

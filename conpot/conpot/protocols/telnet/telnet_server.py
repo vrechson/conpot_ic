@@ -10,22 +10,12 @@ from datetime import datetime
 import logging
 
 BANNER = """
-----------------------------------------
-
-
-Service Fullfillment Center
-Sri Lanka Telecom PLC
-Config by       : D.M.U.P Karunarathne
-Date            : 22/01/2014
-Type            : C891F
-S/N             : FGL222992A7
-Service         : D-BIL
-Customer        : VISTA G CONSULT PVT LTD
-CIRCUIT ID      : D81249 (Old_D82300)
-Modified	: K.S.Perera (16/06/2019)
-----------------------------------------
-
-User Access Verification
+SlimLine Cortex M7
+Code: MPS054A100 Nr: 221
+Firmware: SFW198C310
+Bootloader: SFW200A100
+Plc: RUN - Project: "Xtarget    0.0"
+Maintenance shell
 """
 
 class TELNETHandler(TelnetHandler):
